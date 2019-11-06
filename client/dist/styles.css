@@ -1,0 +1,109 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-color: #24272b;
+    /* background-image: url("https://i.imgur.com/HeAsP6v.jpg");
+    background-size: 100%;
+    background-size: center;
+    background-repeat: no-repeat; */
+}
+
+.container {
+    margin: auto;
+    width: 70%;
+}
+
+.header-container {
+    margin-top: 50px;
+}
+
+.number-container {
+    margin: auto;
+    width: 40%;
+}
+
+.headerTitle {
+    font-size: 30px;
+    color: #db6e68
+
+}
+
+.number {
+    background-color: #db6e68;
+    padding: 30px 35px 20px 35px;
+    border-radius: 30px;
+}
+
+.phoneNumber {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.grossNumber2 {
+    font-size: 80px;
+    color: white;
+}
+
+.grossNumber2BIG {
+    color: white;
+    font-size: 80px;
+    text-shadow: 0 0 2vw #db6e68;
+  }
+
+.liveFeedContainer {
+    margin: auto;
+    width: 50%;
+}
+
+
+.flex-left {
+    margin-right: 300px;
+}
+
+.flex-left-gross {
+    margin-right: 370px;
+}
+
+.flex-left2 {
+    margin-right: 200px;
+
+}
+
+.service-container {
+    margin-top: 30px;
+}
+
+
+.top, .bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.top {
+	animation-name: fade;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	animation-direction: alternate;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
